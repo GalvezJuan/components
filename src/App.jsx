@@ -4,13 +4,15 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { Titulo } from './Components/Titulo'
 import { Resultado } from './Components/Resultado'
+import { TituloAlternativo } from './Components/TituloAlternativo'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <Titulo titulo={'Titulo'}/>
+     
+      <TituloAlternativo titulo2={false}/>
       <Resultado valor1={5} valor2={6}/>
     </>
   )

@@ -1,5 +1,5 @@
-export const Titulo = ({ titulo }) => {
+export const Titulo = ({ titulo1 }) => {
     return <>
-        <h1>{titulo}</h1>
+        <h1>{titulo1}</h1>
     </>
 } 
